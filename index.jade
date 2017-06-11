@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		title Team Developer Urbaner
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.min.css")
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css")
+		link(rel="stylesheet", href="estilos.css")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+	body
+		-var eduardo 		= "Eduardo Cabrera Japa";
+		-var eswin 			= "Eswin Palacios Sarmiento";
+		-var gerson 		= "Gerson Josue Perez Aguilar";
+		-var marilyn 		= "Marilyn Villano Aldunate";
+		-var christopher 	= "Christopher Cárdenas Pacheco";
+		-var yahyr 			= "Yahyr Paredes Arteaga";
+		header
+			figure 
+				img(src="img/logo.png")
+		main
+			.container
+				.row
+					.col-md-6.offset-md-3
+						h1.center TEAM URBANER
+						hr
+				br				
+				
+				section
+					article
+						.row
+							.col-md-6.offset-md-3
+								h2.center FULL STACK
+								hr(style="width:23%!important;")
+						.row.contentTeam
+							.col-xs
+								figure.teamDev.center
+									img(src="img/teamDev/eduardo.jpg", alt=eduardo).rounded-circle
+								.center
+									h3.center=eduardo
+									h5 Backend Developer
+								p Titulado de la carrera de Ingenieria de Sistemas e Informatica. Especializado como Software Development Engineer con conocimientos <br> en Agile Development. Me gusta el futbol e ir al gimnasio.
+								.row.social
+									.col-md-6.offset-md-3
+										.row.flex-items-xs-center
+											.col-xs
+												a(href="https://www.linkedin.com/in/eduardo-cabrera-japa", target="_blank")
+													figure
+														img(src="img/linkedin.png")
+											.col-xs
+												a(href="https://twitter.com/dvex92", target="_blank")
+													figure
+														img(src="img/social-twitter.png")
+											.col-xs
+												a(href="https://github.com/dvex", target="_blank")
+													figure
+														img(src="img/github-logo.png")
+
+							.col-xs
+								figure.teamDev.center
+									img(src="img/teamDev/eswin.jpg", alt=eswin).rounded-circle
+								div.center
+									h3=eswin
+									h5 Backend Developer
+								p Backend Developer de Chiclayo. Egresado de ingeniería de sistemas y computación. Conferencista, organizador de eventos de tecnología; me gusta el futbol y bicicletar. 
+								.row.social
+									.col-md-6.offset-md-3
+										.row.flex-items-xs-center
+											.col-xs
+												a(href="http://www.eswinpalacios.com/", target="_blank")
+													figure
+														img(src="img/linkedin.png")
+											.col-xs
+												a(href="https://bitbucket.org/eswinpalacios/", target="_blank")
+													figure
+														img(src="img/social-twitter.png")
+											.col-xs
+												figure
+													img(src="img/github-logo.png")
+					article
+						.row
+							.col-md-6.offset-md-3
+								h2.center FRONTEND
+								hr(style="width:20%!important;")
+						.row.contentTeam
+							.col-xs
+								figure.teamDev.center
+									img(src="img/teamDev/gerson.jpg", alt=gerson).rounded-circle
+								.center
+									h3=gerson
+									h5 UI/UX Developer Frontend
+
+								p Soy egresado de la carrera computación e informatica, organizador de eventos de la comunidad Laravel Perú; me encanta dar charlas y talleres, <br> ir al trabajo en bicicleta y me gusta la música latin-pop.
+								.row.social
+									.col-md-6.offset-md-3
+										.row.flex-items-xs-center
+											.col-xs
+												a(href="https://pe.linkedin.com/in/gersonperezaguilar", target="_blank")
+													figure
+														img(src="img/linkedin.png", alt="")
+											.col-xs
+												a(href="https://twitter.com/GersonDesignUX", target="_blank")
+													figure
+														img(src="img/social-twitter.png")
+											.col-xs
+												a(href="https://github.com/GersonDesign", target="_blank")
+													figure
+														img(src="img/github-logo.png")
+
+							.col-xs
+								figure.teamDev.center
+									img(src="img/teamDev/marilyn.jpg", alt=marilyn).rounded-circle
+								.center
+									h3.center=marilyn
+									h5 UI/UX Frontend Developer / Mercadóloga
+								p Estudiante de Marketing y Negocios Internacionales, apasionada con temas de emprendimiento tecnológico y enfocada en el logro de mis  metas, buscando siempre obtener un  aprendizaje continuo.
+								.row.social
+									.col-md-6.offset-md-3
+										.row.flex-items-xs-center
+											.col-xs
+												a(href="https://www.linkedin.com/in/marilynvillano", target="_blank")
+													figure
+														img(src="img/linkedin.png", alt="")
+											.col-xs
+												figure
+													img(src="img/social-twitter.png")
+											.col-xs
+												a(href="https://github.com/Marilynvillano", target="_blank")
+													figure
+														img(src="img/github-logo.png")
+					article
+						.row
+							.col-md-6.offset-md-3
+								h2.center ANDROID DEVELOPER
+								hr
+						.row.contentTeam
+							.col-xs
+								figure.teamDev.center
+									img(src="img/teamDev/christopher.jpg", alt=christopher).rounded-circle
+								.center 
+									h3.center=christopher
+									h5 Android Developer
+								p Soy una persona apasionada por el desarrollo del software,la integración con hardware y la electrónica. Crear algo nuevo me motiva para dar todo de mí para que se haga realidad. Me gusta el fútbol y tocar guitarra.
+								.row.social
+									.col-md-6.offset-md-3
+										.row.flex-items-xs-center
+											.col-xs
+												a(href="https://pe.linkedin.com/in/christophercap", target="_blank")
+													figure
+														img(src="img/linkedin.png")
+											.col-xs
+												figure
+													img(src="img/social-twitter.png")
+											.col-xs
+												a(href="https://github.com/cap7", target="_blank")
+													figure
+														img(src="img/github-logo.png")
+
+							.col-xs
+								figure.teamDev.center
+									img(src="img/teamDev/yahyr.jpg", alt=yahyr).rounded-circle
+								.center
+									h3.center=yahyr
+									h5 Android / Backend Developer
+								p Técnico en Informática y Sistemas,orientado como Software Developer. Muy alegre, creativo e innovador. Me gusta hacer deporte, aprender, desarrollar cosas nuevas y tener nuevos retos.
+								.row.social
+									.col-md-6.offset-md-3
+										.row.flex-items-xs-center
+											.col-xs
+												figure
+													img(src="img/linkedin.png")
+											.col-xs
+												figure
+													img(src="img/social-twitter.png")
+											.col-xs
+												figure
+													img(src="img/github-logo.png")
+
+		footer
+			.row(style="margin-right:0 !important; margin-left:0 !important;").flex-items-xs-middle
+				.col-md-4
+					.row
+						.col-md-8.offset-md-2
+							h3 Siguenos en
+							.row
+								.col-xs-3
+									a(href="https://www.facebook.com/urbaner.pe/", target="_blank")
+										figure.socialMedia
+											img(src="img/social-facebook.png")
+								.col-xs-3
+									a(href="https://www.linkedin.com/company/urbaner", target="_blank")
+										figure.socialMedia
+											img(src="img/social-linkedin.png")
+								.col-xs-3
+									a(href="https://twitter.com/urbaner_pe", target="_blank")
+										figure.socialMedia
+											img(src="img/social-twitter.png")
+								
+				.col-md-4
+					p.center
+						| Copyright 2016 Urbaner | Todos los derechos reservados
+				.col-md-4
+					p.center Jorge chávez 184, Miraflores 15074<br>444 1083<br><a href="mailto:info@urbaner.pe">info@urbaner.pe</a>
+	
+		
+
+
+
+

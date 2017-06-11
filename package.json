@@ -1,0 +1,26 @@
+{
+  "name": "taller-boostrap-v4",
+  "version": "1.0.0",
+  "description": "En este taller se enseñará sobre una maquetación usando el framework en su ultima versión.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Gerson-Perez@bitbucket.org/Gerson-Perez/taller-bootstrap-v4.git"
+  },
+  "keywords": [
+    "gulpJS"
+  ],
+  "author": "Gerson Perez Aguilar & Marilyn Villano",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Gerson-Perez/taller-bootstrap-v4#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "nib": "^1.1.2"
+  }
+}
